@@ -4,7 +4,7 @@
 
 <asp:TextBox ID="documento" runat="server"></asp:TextBox>
 <asp:Button ID="Buscar" runat="server" Text="Buscar" />
-<!--SqlDataSource  base de datos Personas server MSI\SQLEXPRESS -->
-<asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:Practico2 %>" SelectCommand="SELECT * FROM [Personas]"></asp:SqlDataSource>
+
+<asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:Practico2String %>" SelectCommand="SELECT * FROM [Personas]"></asp:SqlDataSource>
 
 </asp:Content>
